@@ -1,6 +1,6 @@
 # esp32-attendanceSystem
 
-This project demonstrates fingerprint recognition using the Adafruit Fingerprint sensor and ESP32-CAM module. The program allows users to enroll fingerprints, store them on an SD card, and search for enrolled fingerprints. Additionally, it connects to a PHP server to retrieve names associated with registered roll numbers.
+This project demonstrates fingerprint recognition using the Adafruit Fingerprint sensor and ESP32-CAM module. The program allows users to enroll fingerprints, store them on an SD card, and search for enrolled fingerprints. Additionally, it connects to a PHP server to retrieve names associated with registered roll numbers. This works as a simple attendance system. The coise of ESP 32 cam module was made to involve develop a face recognisiton system in the future.
 
 ## Requirements
 
@@ -51,6 +51,11 @@ This project demonstrates fingerprint recognition using the Adafruit Fingerprint
 - ESP32WiFi Library
   - Core library for ESP32 Wi-Fi functionality.
   - Included with the ESP32 board support package in the Arduino IDE.
+  - To add ESP32 Board support package, follow the following steps.
+       1. Open Arduino IDE and Go to Tools.
+       2. Click on **Manage Libraries**
+       3. In the **Library manager** window, *search esp32*
+       4. Install the library released by Espresso
 
 - SD Library
   - Library for reading and writing to SD cards.
